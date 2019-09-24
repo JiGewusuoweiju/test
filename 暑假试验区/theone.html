@@ -25,7 +25,7 @@
     function Number(n) {
         var n = window.prompt("快输入一个数字吧！", "23");
         for (var i = n.length-1; i>=0; i--){
-            var k = changeName(n[i]);
+            var k = ChangeName(n[i]);
             //如果首位为零不读
             if (i==n.length-1 && n[n.length-1] == '0')
                 continue;
@@ -143,6 +143,7 @@
             document.write("过来打一架吧！！");
         }
     }
+    Number();
 </script>
 </body>
 </html>
